@@ -14,7 +14,6 @@ To ensure that this project will work successfully you need to install first of 
 ## Deployment
 
 ## Project in details
-'''
 sh
 data-collection
 ├── common
@@ -37,7 +36,6 @@ data-collection
 ├── main.py
 ├── README.md
 └── .gitignore
-'''
 
 ## Getting Started
 
