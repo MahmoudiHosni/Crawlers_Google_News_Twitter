@@ -6,7 +6,7 @@ class mongoConnection:
         self.config = config
 
     def __enter__(self):
-        self.connection = connect(db='ScreeningReview', host='mongodb://system:sysEqua1i0sDev@ubsdev.equalios.com:22018/?authSource=admin')
+        self.connection = connect(db='collectionName', host='mongodb://system:@:22018/?authSource=')
 
         return self.connection
 
