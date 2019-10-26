@@ -3,22 +3,19 @@
 This project is developed with python 3.6 in order to collect and process external data from different sources such as social media "Twitter" and other sites like "Google News".
 Those data will be integrated to a NoSQL database "MongoDB" to be consumed by another application.
 '''
-## Getting Started
-```
-Give examples
-```
 
 ### Installing
 
 
-```
+'''
 To ensure that this project will work successfully you need to install first of all a virtualenv to prevent any conflict with other system libraries.Then, you should install libraries existant in text file "requirements.txt.
-```
+'''
 
 ## Deployment
 
 ## Project in details
-```sh
+'''
+sh
 data-collection
 ├── common
 ├── api
@@ -40,3 +37,8 @@ data-collection
 ├── main.py
 ├── README.md
 └── .gitignore
+'''
+
+## Getting Started
+
+Enjoy !!!
