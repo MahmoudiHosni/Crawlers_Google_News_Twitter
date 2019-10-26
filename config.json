@@ -1,0 +1,34 @@
+{
+  "data_path": "/home/hosni/screening-review-backend/data",
+  "googleNews": {
+  "base_url": "https://news.google.com/search?q=+",
+  "query": "docker",
+  "expiry_days": 90,
+  "proxy": "http://cfrisch:rhpsbqkw@uk.proxymesh.com:31280  ",
+  "output_folder": "/google_news_data/"
+},
+
+     "mongo": {
+        "mongo_uri"        : "ubsdev.equalios.com",
+        "db_name"          : "ScreeningReview",
+        "mongo_collection" : "client",
+        "port"             :  22018,
+        "username"         : "system",
+        "password"         : "sysEqua1i0sDev",
+        "mongo_auth_source": "admin"
+      },
+
+   "application": {
+    "host": "127.0.0.1",
+    "port": "1776"
+
+  },
+  "twitter":{
+      "ACCESS_TOKEN" : "1085687624004718592-OFt18RwTk2Fjs8iIkxNQJ7hGCTRc8k",
+      "ACCESS_TOKEN_SECRET" : "aJbXM453ABM6XYjZdadkDbSVfTuW8W4UlSnyheevlZAIY",
+      "CONSUMER_KEY" : "wpjfstyikV9KrXhfmiVZfEc4y",
+      "CONSUMER_SECRET" : "D9nPYlE3u8piuGeToToUU61m3IpMiKPhGZUmvziHJsPHs5Qrjo"
+  }
+
+}
+
